@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ateliê de Incensos Naturais</title>
+<meta name="description" content="Aprenda a fazer incensos naturais em casa, com o Método das 3 Queimas. Primeiro lote em 48 horas, lista de fornecedores e 30 dias de garantia. A partir de R$ 14,90.">
+<meta name="theme-color" content="#1D1915">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ateliê de Incensos Naturais">
+<meta property="og:description" content="Seus incensos naturais feitos em casa, queimando até o fim. A partir de R$ 14,90, com 30 dias de garantia.">
+<meta property="og:image" content="02.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231D1915'/%3E%3Cpath d='M32 50V24' stroke='%23B88A55' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='22' r='5' fill='%23D9682B'/%3E%3Cpath d='M32 15c-4-4 4-6 0-10' stroke='%23F4EAD5' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preload" as="image" href="02.webp">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}</style>
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Karla:wght@400;500;700;800&display=swap">
+<style>
+/* Layout: página longa de resposta direta, mobile-first. Faixas alternando papel claro e "fumaça" escura; CTA a cada dobra; fotos em todas as seções. Visual único (claro + faixas escuras), cores todas explícitas. */
+:root{
+  --papel:#FBF7EF; --kraft:#EEE3CC; --tinta:#2A231B; --tinta-2:#5B5145;
+  --fumaca:#1D1915; --fumaca-2:#2A241E; --creme:#F4EAD5; --creme-2:#D9CDB4;
+  --musgo:#5C7033; --musgo-esc:#465827; --brasa:#D9682B; --brasa-clara:#F2A46B;
+  --linha:#D8CBB0; --linha-esc:#433829; --branco:#FFFFFF; --alerta:#B3261E;
+  --f-display:"Playfair Display", Georgia, "Times New Roman", serif;
+  --f-corpo:"Karla", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --raio:14px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:var(--f-corpo);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+@media (min-width:700px){.wrap{padding-left:max(32px,env(safe-area-inset-left,0px));padding-right:max(32px,env(safe-area-inset-right,0px))}}
+.ler{max-width:700px}
+h1,h2,h3{font-family:var(--f-display);line-height:1.06;margin:0;text-wrap:balance;font-weight:800}
+h2{font-size:clamp(32px,5.4vw,52px)}
+h3{font-size:23px}
+p{margin:0}
+.eyebrow{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--brasa)}
+section{padding-block:clamp(56px,9vw,100px)}
+.stack{display:flex;flex-direction:column;gap:20px}
+.escuro{background:var(--fumaca);color:var(--creme)}
+.escuro h2{color:var(--creme)}
+.escuro .sub2{color:var(--creme-2)}
+.kraft{background:var(--kraft)}
+mark{background:linear-gradient(transparent 58%,rgba(217,104,43,.35) 58%);color:inherit;padding:0 2px}
+.escuro mark{background:linear-gradient(transparent 58%,rgba(217,104,43,.55) 58%)}
+
+/* fotos */
+.f{border-radius:var(--raio);overflow:hidden;background:linear-gradient(160deg,#5a4634,#2a221b);max-width:100%}
+.foto{display:block;width:100%;height:100%;object-fit:cover}
+
+/* barra topo */
+.barra{background:var(--brasa);color:var(--branco);font-size:14px;font-weight:700;text-align:center}
+.barra .wrap{padding-block:9px}
+
+/* botões */
+.btn{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:var(--musgo);color:var(--branco);text-decoration:none;font-weight:800;font-size:20px;line-height:1.2;padding:18px 32px;border-radius:999px;border:0;cursor:pointer;box-shadow:0 12px 26px -10px rgba(70,88,39,.75);transition:background .2s,transform .2s;text-align:center}
+.btn:hover{background:var(--musgo-esc);transform:translateY(-1px)}
+.btn:focus-visible{outline:3px solid var(--brasa);outline-offset:3px}
+.btn small{font-weight:500;font-size:14px;opacity:.9}
+.btn.pulsa{animation:pulsa 2.4s ease-in-out infinite}
+@keyframes pulsa{0%,100%{box-shadow:0 12px 26px -10px rgba(70,88,39,.75),0 0 0 0 rgba(92,112,51,.45)}50%{box-shadow:0 12px 26px -10px rgba(70,88,39,.75),0 0 0 12px rgba(92,112,51,0)}}
+@media (prefers-reduced-motion:reduce){.btn.pulsa{animation:none}}
+.cta-linha{display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center;margin-top:32px}
+.cta-linha .nota{font-size:15px;color:var(--tinta-2)}
+.escuro .cta-linha .nota{color:var(--creme-2)}
+.selos{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:15px;list-style:none;padding:0;margin:0}
+.selos li::before{content:"✓ ";color:var(--brasa);font-weight:800}
+
+/* hero */
+.hero{padding-block:clamp(28px,6vw,72px) clamp(40px,7vw,80px)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,60px);align-items:center}
+.hero .stack{min-width:0}
+.hero h1{font-size:clamp(36px,6.2vw,66px);color:var(--creme)}
+.hero h1 em{font-style:italic;color:var(--brasa-clara)}
+.hero .sub{font-size:clamp(19px,2.2vw,22px);color:var(--creme-2);max-width:36ch}
+.hero .selos{color:var(--creme-2)}
+.preco-hero{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.preco-hero .de{text-decoration:line-through;color:#A99D83;font-size:17px}
+.preco-hero .por{font-family:var(--f-display);font-size:34px;font-weight:900;color:var(--creme)}
+.preco-hero .obs{font-size:14px;color:var(--creme-2)}
+.colagem{display:grid;grid-template-columns:1fr 1fr;gap:10px;min-width:0}
+.colagem .f{aspect-ratio:4/5;border:1px solid var(--linha-esc)}
+.colagem .alta{grid-row:span 2;aspect-ratio:auto}
+.queima{position:relative;aspect-ratio:4/5;border-radius:var(--raio);background:radial-gradient(120% 80% at 50% 110%,#3A2C1E 0%,#1D1915 60%);border:1px solid var(--linha-esc);max-width:100%}
+.queima canvas{position:absolute;inset:0;width:100%;height:100%}
+.cron{position:absolute;left:12px;bottom:10px;right:12px;display:flex;justify-content:space-between;align-items:baseline;font-size:11px;color:#BFB298;letter-spacing:.06em;text-transform:uppercase}
+.cron b{font-variant-numeric:tabular-nums;font-size:17px;color:var(--creme);letter-spacing:0}
+
+/* faixa rolante de fotos */
+.rolo{background:var(--fumaca);padding-block:0 18px;overflow:hidden}
+.rolo-trilho{display:flex;gap:10px;width:max-content;animation:rola 60s linear infinite}
+.rolo-trilho .f{width:150px;aspect-ratio:1;flex:0 0 auto;border-radius:10px}
+@keyframes rola{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.rolo-trilho{animation:none}}
+
+/* antes/depois */
+.vida{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px}
+.vida .lado{border-radius:18px;overflow:hidden;display:flex;flex-direction:column;background:var(--branco);border:1px solid var(--linha)}
+.vida .lado .f{border-radius:0;aspect-ratio:16/10}
+.vida .lado .txt{padding:24px;display:flex;flex-direction:column;gap:12px}
+.vida .lado.hoje .f img{filter:grayscale(.85) brightness(.8)}
+.vida .rot{font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.vida .hoje .rot{color:var(--alerta)}
+.vida .depois{border:2px solid var(--musgo)}
+.vida .depois .rot{color:var(--musgo)}
+.vida ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;font-size:17px}
+.vida li{display:grid;grid-template-columns:22px 1fr;gap:8px}
+.vida .hoje li::before{content:"✕";color:var(--alerta);font-weight:800}
+.vida .depois li::before{content:"✓";color:var(--musgo);font-weight:800}
+
+/* dores */
+.dores{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:36px}
+.dor{background:var(--branco);border:1px solid var(--linha);border-radius:var(--raio);padding:14px 14px 22px}
+.dor .f{aspect-ratio:16/11;margin-bottom:16px;border-radius:10px}
+.dor h3{font-size:22px;margin-bottom:8px;padding-inline:6px}
+.dor p{color:var(--tinta-2);font-size:16px;padding-inline:6px}
+.dor .x{display:inline-block;background:var(--alerta);color:var(--branco);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;border-radius:6px;padding:2px 8px;margin:0 6px 10px}
+
+/* cálculo */
+.calc-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;margin-top:36px;align-items:start}
+.calc-card{background:var(--branco);border:1px solid var(--linha);border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:18px;min-width:0}
+.calc-head{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:center}
+.calc-head .f{aspect-ratio:1;border-radius:10px}
+.calc-head p{color:var(--tinta-2);font-size:15px}
+.escuro-card{background:var(--fumaca);border-color:var(--fumaca);color:var(--creme)}
+.escuro-card h3{color:var(--creme)}
+.tabela-wrap{overflow-x:auto;min-width:0}
+.tabela{width:100%;border-collapse:collapse;font-size:16px;font-variant-numeric:tabular-nums}
+.tabela th{text-align:left;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--tinta-2);font-weight:800;padding:0 8px 8px 0;border-bottom:2px solid var(--tinta)}
+.tabela td{padding:10px 8px 10px 0;border-bottom:1px solid var(--linha);vertical-align:top}
+.tabela td:last-child,.tabela th:last-child{text-align:right;padding-right:0;white-space:nowrap}
+.tabela td .est{font-size:12px;color:var(--brasa);font-weight:700;margin-left:4px}
+.tabela tfoot td{border-bottom:0;font-weight:800;font-size:19px;padding-top:14px}
+.tabela tfoot td:last-child{color:var(--musgo);font-family:var(--f-display);font-size:26px}
+.campo{display:flex;flex-direction:column;gap:8px}
+.campo label{display:flex;justify-content:space-between;gap:12px;font-weight:700;font-size:16px}
+.campo label b{font-family:var(--f-display);font-size:24px;color:var(--brasa-clara);font-variant-numeric:tabular-nums}
+.campo input[type=range]{width:100%;accent-color:var(--brasa);height:28px}
+.campo input[type=range]:focus-visible{outline:2px solid var(--brasa-clara);outline-offset:4px}
+.campo .dica{font-size:14px;color:var(--creme-2)}
+.res{display:grid;grid-template-columns:1fr 1fr;gap:10px;border-top:1px solid var(--linha-esc);padding-top:18px}
+.res div{display:flex;flex-direction:column;gap:2px;background:var(--fumaca-2);border-radius:12px;padding:14px}
+.res span{font-size:13px;color:var(--creme-2);text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+.res b{font-family:var(--f-display);font-size:28px;font-variant-numeric:tabular-nums;color:var(--creme)}
+.res .grande{grid-column:span 2;background:var(--musgo)}
+.res .grande span{color:#E7EED8}
+.res .grande b{font-size:clamp(38px,6vw,52px)}
+.invest{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,48px);margin-top:28px;background:var(--branco);border:2px solid var(--musgo);border-radius:18px;padding:clamp(20px,3vw,32px);align-items:start}
+.invest>*{min-width:0}
+.invest h3 span{color:var(--musgo)}
+@media (max-width:860px){.calc-grid,.invest{grid-template-columns:1fr}}
+
+/* para quem */
+.quem{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:36px}
+.quem .card{position:relative;border-radius:var(--raio);overflow:hidden;aspect-ratio:3/4;color:var(--creme);display:flex;flex-direction:column;justify-content:flex-end;padding:18px;max-width:100%}
+.quem .card .f{position:absolute;inset:0;border-radius:0}
+.quem .card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(29,25,21,0) 35%,rgba(29,25,21,.92) 100%)}
+.quem .card>*:not(.f){position:relative;z-index:1}
+.quem h3{font-size:21px;color:var(--creme)}
+.quem p{font-size:15px;color:var(--creme-2);margin-top:6px}
+
+/* método */
+.etapas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:40px}
+.etapa{display:flex;flex-direction:column;gap:12px}
+.etapa .f{aspect-ratio:4/3;position:relative}
+.etapa .n{position:absolute;left:12px;top:8px;font-family:var(--f-display);font-size:58px;line-height:1;color:var(--creme);font-weight:900;text-shadow:0 2px 14px rgba(0,0,0,.6)}
+.etapa p{color:var(--tinta-2);font-size:16px}
+
+/* conta */
+.conta-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:36px}
+.preco{border:1px solid var(--linha-esc);border-radius:var(--raio);padding:28px;display:grid;grid-template-columns:96px 1fr;gap:18px;align-items:center}
+.preco .f{aspect-ratio:1;border-radius:10px}
+.preco .valor{font-family:var(--f-display);font-size:clamp(38px,6vw,56px);font-weight:900;line-height:1;font-variant-numeric:tabular-nums}
+.preco .rot{font-size:15px;color:#CBBFA4;margin-top:8px}
+.preco.ruim .valor{color:#C9B9A0;text-decoration:line-through;text-decoration-color:var(--brasa);text-decoration-thickness:4px}
+.preco.nosso{background:var(--musgo);border-color:var(--musgo)}
+.preco.nosso .rot{color:#E7EED8}
+.fonte{font-size:13px;color:#A99D83;margin-top:18px}
+
+/* o que recebe */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,56px);align-items:center}
+.split>*{min-width:0}
+.mosaico{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mosaico .f{aspect-ratio:1}
+.mosaico .f:first-child{grid-column:span 2;aspect-ratio:16/10}
+.vem{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px;margin-top:32px;padding:0;list-style:none}
+.vem li{display:grid;grid-template-columns:64px 1fr;gap:14px;padding:16px 0;border-bottom:1px solid var(--linha);align-items:center}
+.vem .f{aspect-ratio:1;border-radius:10px}
+.vem b{display:block;font-size:18px}
+.vem span{color:var(--tinta-2);font-size:16px}
+.tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:var(--kraft);color:var(--tinta);border-radius:6px;padding:2px 8px;margin-left:6px;vertical-align:2px}
+
+/* linhas */
+.linhas{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:32px}
+.linha{border-radius:var(--raio);padding:20px;min-height:220px;display:flex;flex-direction:column;justify-content:flex-end;gap:6px;color:var(--creme);position:relative;overflow:hidden;background:var(--fumaca)}
+.linha .bg{position:absolute;inset:0;border-radius:0}
+.linha .bg img{opacity:.6}
+.linha::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(29,25,21,.05),rgba(29,25,21,.85))}
+.linha>*:not(.bg){position:relative;z-index:1}
+.linha h3{font-size:22px;color:var(--creme)}
+.linha p{font-size:15px;color:var(--creme-2)}
+
+/* galeria */
+.galeria{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:180px;gap:10px;margin-top:32px}
+.galeria figure{margin:0;position:relative;border-radius:var(--raio);overflow:hidden}
+.galeria figure .f{position:absolute;inset:0;border-radius:0}
+.galeria .g2{grid-row:span 2}
+.galeria .w2{grid-column:span 2}
+.galeria figcaption{position:absolute;left:10px;bottom:10px;background:rgba(29,25,21,.78);color:var(--creme);font-size:13px;font-weight:700;padding:4px 10px;border-radius:999px}
+
+/* fundadora */
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.caixa{border-radius:var(--raio);padding:28px;border:1px solid var(--linha);background:var(--branco)}
+.preencher{border:2px dashed var(--brasa);background:#FFF6EE}
+
+/* planos */
+.planos-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:36px;align-items:stretch}
+.plano{background:var(--branco);border:1px solid var(--linha);border-radius:18px;padding:28px;display:flex;flex-direction:column;gap:18px;position:relative}
+.plano.dest{border:3px solid var(--musgo);box-shadow:0 28px 56px -28px rgba(42,35,27,.5)}
+.plano .capa{aspect-ratio:16/8;margin:-6px -6px 0}
+.selo{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--brasa);color:var(--branco);font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:7px 14px;border-radius:999px;white-space:nowrap;z-index:2}
+.plano .val{font-family:var(--f-display);font-size:58px;font-weight:900;line-height:1;font-variant-numeric:tabular-nums}
+.plano .val small{font-family:var(--f-corpo);font-size:18px;font-weight:700;vertical-align:super;margin-right:4px}
+.plano .dia{font-size:14px;color:var(--tinta-2);margin-top:6px}
+.plano ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;font-size:16px}
+.plano li{display:grid;grid-template-columns:22px 1fr;gap:8px}
+.plano li.sim::before{content:"✓";color:var(--musgo);font-weight:800}
+.plano li.nao{color:#A39886}
+.plano li.nao::before{content:"–";color:#B9AE9A;font-weight:800}
+.plano .btn{margin-top:auto;width:100%}
+.plano.base .btn{background:var(--tinta);box-shadow:none}
+.plano.base .btn:hover{background:#000}
+.bumps-tit{margin-top:40px;font-family:var(--f-display);font-size:26px;font-weight:800}
+.bumpcard{display:grid;grid-template-columns:130px 1fr;gap:20px;align-items:center;margin-top:14px;border:2px dashed var(--brasa);background:#FFF8F1;border-radius:18px;padding:16px}
+.bumpcard .f{aspect-ratio:1;border-radius:12px}
+.bumpcard .check{display:flex;gap:10px;align-items:flex-start;font-weight:800;font-size:18px}
+.bumpcard .box{flex:0 0 22px;height:22px;border-radius:6px;border:2px solid var(--musgo);background:var(--musgo);color:var(--branco);display:grid;place-items:center;font-size:14px}
+.bumpcard p{color:var(--tinta-2);font-size:16px;margin-top:6px}
+.bumpcard .por{color:var(--brasa)}
+.pag{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin-top:22px;font-size:14px;color:var(--tinta-2)}
+.pag span::before{content:"🔒 "}
+
+/* garantia */
+.garantia .wrap{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:center}
+.carimbo{width:170px;height:170px;border-radius:50%;border:4px solid var(--musgo);display:grid;place-items:center;text-align:center;color:var(--musgo);font-weight:800;line-height:1.1;transform:rotate(-8deg);background:var(--branco);box-shadow:0 0 0 8px var(--kraft)}
+.carimbo b{display:block;font-family:var(--f-display);font-size:60px;line-height:1}
+
+/* faq */
+.faq{display:flex;flex-direction:column;margin-top:28px;border-top:1px solid var(--linha)}
+.faq details{border-bottom:1px solid var(--linha);padding:18px 0}
+.faq summary{cursor:pointer;font-weight:700;font-size:19px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:24px;line-height:1;color:var(--brasa)}
+.faq details[open] summary::after{content:"–"}
+.faq summary:focus-visible{outline:2px solid var(--brasa);outline-offset:4px}
+.faq p{margin-top:10px;color:var(--tinta-2);font-size:17px}
+
+/* final */
+.final .split .f{aspect-ratio:4/5;box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.rodape{font-size:13px;color:var(--tinta-2);padding-block:28px}
+.rodape .wrap{display:flex;flex-direction:column;gap:6px}
+
+/* barra fixa */
+.fixa{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--fumaca);color:var(--creme);padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:none;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 -10px 30px rgba(0,0,0,.25);transform:translateY(110%);transition:transform .3s}
+.fixa.on{transform:none}
+.fixa b{font-family:var(--f-display);font-size:18px}
+.fixa .btn{padding:12px 20px;font-size:16px;width:auto}
+
+/* saída */
+.saida{position:fixed;inset:0;z-index:50;background:rgba(20,16,12,.72);display:grid;place-items:center;padding:16px}
+.saida[hidden]{display:none!important}
+.saida .card{background:var(--papel);color:var(--tinta);max-width:440px;width:100%;border-radius:18px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.saida .card>.f{aspect-ratio:16/7;border-radius:0}
+.saida .topo{background:var(--fumaca);color:var(--creme);padding:20px 24px}
+.saida .topo h2{font-size:clamp(24px,6vw,32px);color:var(--creme)}
+.saida .corpo{padding:20px 24px;display:flex;flex-direction:column;gap:14px}
+.saida ul{margin:0;padding-left:18px;font-size:16px;color:var(--tinta-2)}
+.saida .de{text-decoration:line-through;color:#a39886;font-size:16px}
+.saida .por2{font-family:var(--f-display);font-size:46px;font-weight:900;line-height:1}
+.saida .fechar{background:none;border:0;color:var(--tinta-2);font-size:15px;text-decoration:underline;cursor:pointer;padding:4px}
+
+@media (max-width:900px){
+  .quem,.linhas{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .galeria{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:160px}
+}
+@media (max-width:860px){
+  .hero .wrap,.split,.vida,.conta-grid,.duas,.planos-grid,.vem{grid-template-columns:1fr}
+  .dores,.etapas{grid-template-columns:1fr}
+  .colagem{max-width:520px}
+  .garantia .wrap{grid-template-columns:1fr;justify-items:start}
+  .fixa{display:flex}
+  body{padding-bottom:76px}
+  .final .split .f{aspect-ratio:16/10}
+  .planos-grid .dest{order:-1}
+}
+@media (max-width:460px){
+  .btn{width:100%;font-size:18px;padding:16px 20px}
+  .bumpcard{grid-template-columns:90px 1fr;gap:14px}
+  .bumpcard .check{font-size:16px}
+  .preco{grid-template-columns:70px 1fr;padding:20px}
+  .quem .card{aspect-ratio:3/4.2;padding:14px}
+  .quem h3{font-size:18px}
+  .quem p{font-size:14px}
+  .linha{min-height:180px}
+  .rolo-trilho .f{width:110px}
+}
+</style>
+
+<div class="barra"><div class="wrap">Preço da Turma Fundadora · acesso imediato no celular · 30 dias de garantia</div></div>
+
+<header class="hero escuro">
+  <div class="wrap">
+    <div class="stack">
+      <span class="eyebrow">Curso online · varetas e cones naturais</span>
+      <h1>Sua casa cheirando a paz todo dia, com incensos <em>que você mesma faz</em></h1>
+      <p class="sub">Em 48 horas o seu primeiro lote está pronto e queimando até o fim. Mesmo que você nunca tenha feito um. Se não queimar, o seu dinheiro volta.</p>
+      <div class="preco-hero"><span class="de">1 pacote pronto: R$ 24 a 31</span><span class="por">R$ 14,90</span><span class="obs">para aprender a fazer quantos quiser</span></div>
+      <div class="cta-linha" style="margin-top:0"><a class="btn ck pulsa" data-plano="completo" href="#planos">Quero fazer meus incensos<small>acesso na hora · pagamento único</small></a></div>
+      <ul class="selos"><li>Do zero, sem experiência</li><li>Lista de fornecedores</li><li>Garantia de 30 dias</li></ul>
+    </div>
+    <div class="colagem">
+      <div class="f alta"><img class="foto" src="02.webp" data-img="02" decoding="async" fetchpriority="high" alt="Incenso natural aceso queimando num suporte de pedra"></div>
+      <div class="f"><img class="foto" src="c1.webp" data-img="c1" decoding="async" fetchpriority="high" alt="Feixe de incensos de lavanda amarrado com barbante"></div>
+      <div class="queima" aria-label="Ilustração de uma vareta de incenso queimando">
+        <canvas id="fumaca" aria-hidden="true"></canvas>
+        <div class="cron"><span>Queimando há</span><b id="tempo">00:00</b></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="rolo" aria-hidden="true"><div class="rolo-trilho" id="rolo"></div></div>
+
+<section>
+  <div class="wrap">
+    <div class="ler stack">
+      <span class="eyebrow">Imagine a sua semana</span>
+      <h2>Você continua pagando caro por incenso <mark>que nem queima direito?</mark></h2>
+      <p style="color:var(--tinta-2)">Incenso de banca vem cheio de pó sintético, dá dor de cabeça, apaga no meio e custa caro. Agora pense na mesma casa com o aroma que você escolheu, feito com erva de verdade, pelas suas mãos.</p>
+    </div>
+    <div class="vida">
+      <div class="lado hoje">
+        <div class="f"><img class="foto" src="05.webp" data-img="05" loading="lazy" decoding="async" alt="Vareta de incenso rachada e esfarelada"></div>
+        <div class="txt">
+          <span class="rot">Hoje</span>
+          <ul>
+            <li>R$ 24 a 31 em cada pacote de 9 varetas</li>
+            <li>Cheiro forte de essência sintética</li>
+            <li>Vareta que apaga na metade</li>
+            <li>Sem saber o que está queimando dentro de casa</li>
+          </ul>
+        </div>
+      </div>
+      <div class="lado depois">
+        <div class="f"><img class="foto" src="c7.webp" data-img="c7" loading="lazy" decoding="async" alt="Incenso aceso perto da janela com luz do fim de tarde"></div>
+        <div class="txt">
+          <span class="rot">Daqui a 7 dias</span>
+          <ul>
+            <li>Seu estoque de varetas e cones feito em casa</li>
+            <li>Ervas que você escolheu: lavanda, alecrim, arruda</li>
+            <li>Lote testado que queima até o fim</li>
+            <li>Pacotes bonitos para presentear ou vender, se quiser</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="cta-linha"><a class="btn ck" data-plano="completo" href="#planos">Quero a minha versão "daqui a 7 dias"</a><span class="nota">R$ 14,90 · garantia de 30 dias</span></div>
+  </div>
+</section>
+
+<section class="kraft">
+  <div class="wrap">
+    <div class="ler stack">
+      <span class="eyebrow">Por que quem tenta sozinha desiste</span>
+      <h2>Quase todo incenso caseiro falha pelos mesmos três motivos</h2>
+      <p>O aroma raramente é o problema. Quem começa pelo YouTube erra na massa, na secagem ou na queima, perde material e só descobre quando acende.</p>
+    </div>
+    <div class="dores">
+      <div class="dor"><div class="f"><img class="foto" src="c6.webp" data-img="c6" loading="lazy" decoding="async" alt="Fumaça subindo de um incenso"></div><span class="x">Erro 1</span><h3>Apaga no meio</h3><p>A brasa morre na metade porque a liga ficou fraca ou a mistura não segura combustão.</p></div>
+      <div class="dor"><div class="f"><img class="foto" src="05.webp" data-img="05" loading="lazy" decoding="async" alt="Vareta rachada ao lado de uma vareta firme" style="object-position:50% 60%"></div><span class="x">Erro 2</span><h3>Quebra ao secar</h3><p>A vareta racha e esfarela porque secou rápido demais, no sol ou no vento.</p></div>
+      <div class="dor"><div class="f"><img class="foto" src="c8.webp" data-img="c8" loading="lazy" decoding="async" alt="Pacotes de incenso guardados"></div><span class="x">Erro 3</span><h3>Embolora na gaveta</h3><p>Ficou úmida por dentro e foi guardada cedo. O aroma some e aparece mofo.</p></div>
+    </div>
+    <p style="margin-top:28px;font-size:20px;font-weight:700;max-width:46ch">O Método das 3 Queimas resolve os três, na ordem certa.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="ler stack">
+      <span class="eyebrow">O Método das 3 Queimas</span>
+      <h2>Três etapas para o incenso sair firme e queimar inteiro</h2>
+    </div>
+    <div class="etapas">
+      <div class="etapa"><div class="f"><img class="foto" src="c9.webp" data-img="c9" loading="lazy" decoding="async" alt="Pós e especiarias em tigelas"><span class="n">1</span></div><h3>A liga certa</h3><p>A proporção de pó base e goma que enrola sem grudar e não esfarela depois de seca. Vale para vareta e para cone.</p></div>
+      <div class="etapa"><div class="f"><img class="foto" src="c2.webp" data-img="c2" loading="lazy" decoding="async" alt="Varetas secando em fileiras"><span class="n">2</span></div><h3>Secagem controlada</h3><p>Onde, por quanto tempo e em que posição secar, para a vareta não entortar, não rachar e não embolorar.</p></div>
+      <div class="etapa"><div class="f"><img class="foto" src="02.webp" data-img="02" loading="lazy" decoding="async" alt="Incenso aceso queimando" style="object-position:50% 40%"><span class="n">3</span></div><h3>Teste de queima</h3><p>O checklist que você faz antes de embalar, para ter certeza de que o lote inteiro queima até o fim.</p></div>
+    </div>
+    <div class="cta-linha"><a class="btn ck" data-plano="completo" href="#planos">Quero aprender o método</a><span class="nota">Acesso imediato · garantia de 30 dias</span></div>
+  </div>
+</section>
+
+<section class="escuro">
+  <div class="wrap">
+    <div class="ler stack">
+      <span class="eyebrow">Faça a conta</span>
+      <h2>Por menos que <mark>um</mark> pacote, você aprende a fazer quantos quiser</h2>
+      <p class="sub2">Use em casa, dê de presente ou venda para vizinhas, no Instagram e em feira. A receita é sua para sempre.</p>
+    </div>
+    <div class="conta-grid">
+      <div class="preco ruim"><div class="f"><img class="foto" src="c8.webp" data-img="c8" loading="lazy" decoding="async" alt=""></div><div><div class="valor">R$ 24 a 31</div><div class="rot">por um pacote de 9 varetas de incenso natural artesanal pronto, na internet</div></div></div>
+      <div class="preco nosso"><div class="f"><img class="foto" src="c1.webp" data-img="c1" loading="lazy" decoding="async" alt=""></div><div><div class="valor">R$ 14,90</div><div class="rot">uma vez só, para aprender a fazer os seus, com receitas e lista de fornecedores</div></div></div>
+    </div>
+    <div class="cta-linha"><a class="btn ck pulsa" data-plano="essencial" href="#planos">Começar por R$ 14,90</a><span class="nota">Pagamento único · acesso vitalício</span></div>
+    <p class="fonte">Preços de incenso natural artesanal com 9 varetas no Mercado Livre, pesquisados em outubro de 2026. Este curso ensina a fazer incensos e não garante renda.</p>
+  </div>
+</section>
+
+<section class="kraft" id="calculo">
+  <div class="wrap">
+    <div class="ler stack">
+      <span class="eyebrow">Custo de produção × preço de venda</span>
+      <h2>Um pacote custa cerca de <mark id="h-custo">R$ 3,35</mark> para fazer. Na internet, sai por R$ 24 a 31.</h2>
+      <p style="color:var(--tinta-2)">Fizemos a conta com preços reais de fornecedores. Veja quanto custa cada item, quanto você investe para começar e mexa na calculadora para ver o seu cenário.</p>
+    </div>
+
+    <div class="calc-grid">
+      <div class="calc-card">
+        <div class="calc-head"><div class="f"><img class="foto" src="c8.webp" data-img="c8" loading="lazy" decoding="async" alt=""></div><div><h3>Custo de 1 pacote</h3><p>9 varetas naturais, embalado e etiquetado</p></div></div>
+        <div class="tabela-wrap"><table class="tabela" id="t-custo"><thead><tr><th>Item</th><th>Qtd.</th><th>Custo</th></tr></thead><tbody></tbody><tfoot><tr><td colspan="2">Total por pacote</td><td id="t-total"></td></tr></tfoot></table></div>
+      </div>
+
+      <div class="calc-card escuro-card">
+        <h3>Calcule o seu lucro</h3>
+        <div class="campo">
+          <label for="r-preco">Preço de venda do pacote <b id="o-preco">R$ 18</b></label>
+          <input type="range" id="r-preco" min="10" max="30" step="1" value="18">
+          <span class="dica">Na internet: R$ 24 a 31. Vendendo a R$ 18, você ainda fica bem abaixo.</span>
+        </div>
+        <div class="campo">
+          <label for="r-qtd">Pacotes vendidos por semana <b id="o-qtd">10</b></label>
+          <input type="range" id="r-qtd" min="1" max="60" step="1" value="10">
+          <span class="dica">10 por semana são 2 pacotes por dia útil, para vizinhas, amigas e Instagram.</span>
+        </div>
+        <div class="res">
+          <div><span>Lucro por pacote</span><b id="o-lpac"></b></div>
+          <div><span>Margem</span><b id="o-marg"></b></div>
+          <div class="grande"><span>Lucro estimado no mês</span><b id="o-lmes"></b></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="invest">
+      <div class="invest-txt stack">
+        <span class="eyebrow">Investimento para começar</span>
+        <h3 style="font-size:clamp(26px,3.6vw,34px)">Com <span id="i-total"></span> você monta material para cerca de <span id="i-pac"></span> pacotes</h3>
+        <p style="color:var(--tinta-2)">Vendendo cada pacote a <b id="i-preco"></b>, o investimento volta no <b id="i-volta"></b>. Se vender o lote inteiro, entram <b id="i-receita"></b>, um retorno de <b id="i-roi"></b> sobre o que você investiu.</p>
+        <p style="color:var(--tinta-2);font-size:16px">Quer começar menor? 200 varetas custam R$ 19,90 e dão 22 pacotes.</p>
+      </div>
+      <div class="tabela-wrap"><table class="tabela" id="t-invest"><thead><tr><th>Para ~100 pacotes</th><th>Valor</th></tr></thead><tbody></tbody><tfoot><tr><td>Total</td><td id="t-itotal"></td></tr></tfoot></table></div>
+    </div>
+
+    <div class="cta-linha"><a class="btn ck pulsa" data-plano="completo" href="#planos">Quero aprender e fazer essa conta na prática</a><span class="nota">Tabela de preço de venda inclusa nos dois planos</span></div>
+    <p class="fonte" style="color:var(--tinta-2)">Estimativas com preços de outubro de 2026: varetas de bambu 20 cm (1.000 un. por R$ 63,90, Samādhi Shop), pó de madeira (1 kg por R$ 5,50, Flor de Lótus), essência concentrada (120 ml por R$ 25,90, Cobasi). Goma, ervas e embalagem são valores médios estimados. Frete não incluso. O cálculo considera 10% de perda no lote. Lucro depende de quanto você produz e vende; o curso ensina a fazer incensos e não garante renda.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="ler stack">
+      <span class="eyebrow">É pra você se</span>
+      <h2>Quatro motivos, uma mesma receita</h2>
+    </div>
+    <div class="quem">
+      <div class="card"><div class="f"><img class="foto" src="c7.webp" data-img="c7" loading="lazy" decoding="async" alt=""></div><h3>Você quer paz em casa</h3><p>Aroma para relaxar, meditar e dormir melhor.</p></div>
+      <div class="card"><div class="f"><img class="foto" src="c4.webp" data-img="c4" loading="lazy" decoding="async" alt=""></div><h3>Você cuida da energia</h3><p>Arruda, sálvia, alecrim e guiné para limpar a casa.</p></div>
+      <div class="card"><div class="f"><img class="foto" src="c5.webp" data-img="c5" loading="lazy" decoding="async" alt=""></div><h3>Você ama presentear</h3><p>Um presente feito à mão, embalado com cara de loja.</p></div>
+      <div class="card"><div class="f"><img class="foto" src="04.webp" data-img="04" loading="lazy" decoding="async" alt=""></div><h3>Você quer vender</h3><p>Um produto barato de fazer e com procura o ano todo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="kraft">
+  <div class="wrap">
+    <div class="split">
+      <div class="stack">
+        <span class="eyebrow">O que você recebe</span>
+        <h2>Tudo para fazer o primeiro lote e já saber quanto cobrar</h2>
+        <p style="color:var(--tinta-2)">Do material na bancada ao pacote etiquetado, com a lista de onde comprar cada item.</p>
+      </div>
+      <div class="mosaico">
+        <div class="f"><img class="foto" src="08.webp" data-img="08" loading="lazy" decoding="async" alt="Materiais: pó base, ervas, essências e varetas de bambu" style="object-position:50% 35%"></div>
+        <div class="f"><img class="foto" src="c3.webp" data-img="c3" loading="lazy" decoding="async" alt="Frascos de essência"></div>
+        <div class="f"><img class="foto" src="c4.webp" data-img="c4" loading="lazy" decoding="async" alt="Feixes de ervas secas"></div>
+      </div>
+    </div>
+    <ul class="vem">
+      <li><div class="f"><img class="foto" src="03.webp" data-img="03" loading="lazy" decoding="async" alt=""></div><div><b>Apostila de receitas-base</b><span>Varetas e cones, com quantidades e passo a passo com fotos.</span></div></li>
+      <li><div class="f"><img class="foto" src="c3.webp" data-img="c3" loading="lazy" decoding="async" alt=""></div><div><b>Lista de fornecedores</b><span>Onde comprar pó base, goma, varetas, ervas e essências.</span></div></li>
+      <li><div class="f"><img class="foto" src="c9.webp" data-img="c9" loading="lazy" decoding="async" alt=""></div><div><b>Tabela de preço de venda</b><span>Como calcular o custo do lote e o preço do pacote.</span></div></li>
+      <li><div class="f"><img class="foto" src="c8.webp" data-img="c8" loading="lazy" decoding="async" alt=""></div><div><b>Gerador de etiquetas <span class="tag">Completo</span></b><span>Rótulos prontos para imprimir e colar.</span></div></li>
+      <li><div class="f"><img class="foto" src="c5.webp" data-img="c5" loading="lazy" decoding="async" alt=""></div><div><b>Certificado de conclusão <span class="tag">Completo</span></b><span>Receba quando terminar a apostila.</span></div></li>
+      <li><div class="f"><img class="foto" src="c1.webp" data-img="c1" loading="lazy" decoding="async" alt=""></div><div><b>Acesso vitalício</b><span>No celular, tablet ou computador, para sempre.</span></div></li>
+    </ul>
+    <div class="cta-linha"><a class="btn ck" data-plano="completo" href="#planos">Quero tudo isso</a><span class="nota">a partir de R$ 14,90</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="ler stack">
+      <span class="eyebrow">Linhas de receita</span>
+      <h2>Do aroma para relaxar ao incenso de proteção da casa</h2>
+    </div>
+    <div class="linhas">
+      <div class="linha"><div class="bg f"><img class="foto" src="01.webp" data-img="01" loading="lazy" decoding="async" alt=""></div><h3>Aromáticos</h3><p>Lavanda, capim-limão, canela, alecrim.</p></div>
+      <div class="linha"><div class="bg f"><img class="foto" src="c6.webp" data-img="c6" loading="lazy" decoding="async" alt=""></div><h3>Relaxantes</h3><p>Para meditar, dormir e desacelerar.</p></div>
+      <div class="linha"><div class="bg f"><img class="foto" src="06.webp" data-img="06" loading="lazy" decoding="async" alt=""></div><h3>Proteção e limpeza</h3><p>Arruda, sálvia, alecrim e guiné.</p></div>
+      <div class="linha"><div class="bg f"><img class="foto" src="c10.webp" data-img="c10" loading="lazy" decoding="async" alt=""></div><h3>Cone cascata</h3><p>A fumaça que desce como cachoeira.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="escuro" style="padding-top:clamp(48px,7vw,80px)">
+  <div class="wrap">
+    <div class="ler stack">
+      <span class="eyebrow">Feito na cozinha de casa</span>
+      <h2>Do pó na tigela ao pacote pronto</h2>
+    </div>
+    <div class="galeria">
+      <figure class="g2"><div class="f"><img class="foto" src="03.webp" data-img="03" loading="lazy" decoding="async" alt="Lote de varetas secando sobre papel kraft"></div><figcaption>O lote secando</figcaption></figure>
+      <figure class="w2"><div class="f"><img class="foto" src="c4.webp" data-img="c4" loading="lazy" decoding="async" alt="Feixes de sálvia e lavanda"></div><figcaption>Ervas de verdade</figcaption></figure>
+      <figure><div class="f"><img class="foto" src="09.webp" data-img="09" loading="lazy" decoding="async" alt="Cone cascata"></div><figcaption>Cone cascata</figcaption></figure>
+      <figure><div class="f"><img class="foto" src="c9.webp" data-img="c9" loading="lazy" decoding="async" alt="Especiarias"></div><figcaption>A liga</figcaption></figure>
+      <figure class="g2"><div class="f"><img class="foto" src="07.webp" data-img="07" loading="lazy" decoding="async" alt="Varetas coloridas"></div><figcaption>Uma por signo</figcaption></figure>
+      <figure><div class="f"><img class="foto" src="c2.webp" data-img="c2" loading="lazy" decoding="async" alt="Varetas em fileira"></div><figcaption>Firmes, sem rachar</figcaption></figure>
+      <figure class="w2"><div class="f"><img class="foto" src="04.webp" data-img="04" loading="lazy" decoding="async" alt="Pacotes kraft com etiqueta"></div><figcaption>Embalado e etiquetado</figcaption></figure>
+      <figure><div class="f"><img class="foto" src="06.webp" data-img="06" loading="lazy" decoding="async" alt="Incenso de proteção perto da porta"></div><figcaption>Proteção da casa</figcaption></figure>
+    </div>
+    <p class="fonte">Imagens ilustrativas.</p>
+    <div class="cta-linha"><a class="btn ck" data-plano="completo" href="#planos">Quero fazer os meus</a><span class="nota">R$ 14,90 · acesso imediato</span></div>
+  </div>
+</section>
+
+<section style="padding-bottom:0">
+  <div class="wrap">
+    <div class="duas">
+      <!-- PREENCHER: troque esta caixa pela sua foto real e sua história antes de mandar tráfego. -->
+      <div class="caixa preencher stack">
+        <span class="eyebrow">Preencher antes de publicar · quem ensina</span>
+        <h3>Sua foto, seu nome e há quanto tempo você faz incensos</h3>
+        <p style="color:var(--tinta-2);font-size:16px">Uma pessoa real, com rosto e nome, é a prova mais forte desta página. Use fotos da sua bancada e dos seus lotes.</p>
+      </div>
+      <div class="caixa stack">
+        <span class="eyebrow">Turma Fundadora</span>
+        <h3>Os depoimentos desta página vão ser das primeiras alunas</h3>
+        <p style="color:var(--tinta-2);font-size:16px">O Ateliê está abrindo agora. As alunas da primeira turma mandam a foto do primeiro lote e contam como foi. Você pode ser uma delas, com o preço de quem chegou primeiro.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="planos">
+  <div class="wrap">
+    <div class="ler stack">
+      <span class="eyebrow">Escolha seu plano</span>
+      <h2>Comece hoje. O acesso chega na hora.</h2>
+      <p style="color:var(--tinta-2)">Pagamento único. Acesso vitalício. 30 dias para testar sem risco.</p>
+    </div>
+    <div class="planos-grid">
+      <div class="plano base">
+        <div class="f capa"><img class="foto" src="c3.webp" data-img="c3" loading="lazy" decoding="async" alt=""></div>
+        <div><h3>Essencial</h3><p style="color:var(--tinta-2);font-size:16px">As receitas para começar sozinha.</p></div>
+        <div><div class="val"><small>R$</small>14,90</div><div class="dia">pagamento único</div></div>
+        <ul>
+          <li class="sim">Apostila de receitas-base</li>
+          <li class="sim">Lista de fornecedores</li>
+          <li class="sim">Tabela de preço de venda</li>
+          <li class="nao">Gerador de etiquetas</li>
+          <li class="nao">Certificado de conclusão</li>
+        </ul>
+        <a class="btn ck" data-plano="essencial" href="#planos">Quero o Essencial</a>
+      </div>
+      <div class="plano dest">
+        <span class="selo">Mais escolhido</span>
+        <div class="f capa"><img class="foto" src="04.webp" data-img="04" loading="lazy" decoding="async" alt=""></div>
+        <div><h3>Completo</h3><p style="color:var(--tinta-2);font-size:16px">Para sair com pacote etiquetado e certificado.</p></div>
+        <div><div class="val"><small>R$</small>19,90</div><div class="dia">só R$ 5 a mais que o Essencial</div></div>
+        <ul>
+          <li class="sim">Tudo do Essencial</li>
+          <li class="sim">Gerador de etiquetas</li>
+          <li class="sim">Certificado de conclusão</li>
+          <li class="sim">Acesso vitalício</li>
+        </ul>
+        <a class="btn ck pulsa" data-plano="completo" href="#planos">Quero o Completo</a>
+      </div>
+    </div>
+
+    <p class="bumps-tit">Você pode turbinar no pagamento</p>
+    <div class="bumpcard">
+      <div class="f"><img class="foto" src="07.webp" data-img="07" loading="lazy" decoding="async" alt="Incensos coloridos por signo"></div>
+      <div>
+        <div class="check"><span class="box" aria-hidden="true">✓</span><span>Pack Espiritual <span class="por">+ R$ 24,90</span></span></div>
+        <p>Receitas por chakra, por signo e por fase da lua, mais as misturas de limpeza e proteção da casa.</p>
+      </div>
+    </div>
+    <div class="bumpcard">
+      <div class="f"><img class="foto" src="10.webp" data-img="10" loading="lazy" decoding="async" alt="Kit Embalagem que Vende"></div>
+      <div>
+        <div class="check"><span class="box" aria-hidden="true">✓</span><span>Kit Embalagem que Vende <span class="por">+ R$ 24,90</span></span></div>
+        <p>5 moldes em tamanho real, tags, cintas e selos, passo a passo de montagem e o custo de cada embalagem. Seus incensos com cara de loja.</p>
+      </div>
+    </div>
+    <div class="bumpcard">
+      <div class="f"><img class="foto" src="11.webp" data-img="11" loading="lazy" decoding="async" alt="Guia Vende Fácil"></div>
+      <div>
+        <div class="check"><span class="box" aria-hidden="true">✓</span><span>Guia Vende Fácil <span class="por">+ R$ 21,90</span></span></div>
+        <p>5 roteiros de WhatsApp, lojas parceiras em consignação, checklist de feira, 20 legendas para o Instagram e o calendário das datas que mais vendem.</p>
+      </div>
+    </div>
+    <div class="pag"><span>Pagamento seguro</span><span>Pix, cartão ou boleto</span><span>Acesso enviado por e-mail</span></div>
+  </div>
+</section>
+
+<section class="garantia kraft">
+  <div class="wrap">
+    <div class="carimbo"><div><b>30</b>dias de<br>garantia</div></div>
+    <div class="ler stack">
+      <span class="eyebrow">Risco zero</span>
+      <h2>Se o seu incenso não queimar até o fim, o dinheiro volta</h2>
+      <p>Siga o Método das 3 Queimas. Se em até 30 dias o seu lote não queimar inteiro, ou se você simplesmente não gostar, peça o reembolso e receba 100% do valor. Sem perguntas.</p>
+      <div><a class="btn ck" data-plano="completo" href="#planos">Testar sem risco</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="ler">
+      <span class="eyebrow">Dúvidas</span>
+      <h2 style="margin-top:12px">Perguntas frequentes</h2>
+      <div class="faq">
+        <details><summary>Nunca fiz nada artesanal. Consigo?</summary><p>Sim. O curso começa do zero, explica cada ingrediente e o motivo de cada etapa. Se a sua primeira tentativa não queimar até o fim, a garantia cobre.</p></details>
+        <details><summary>O material é caro?</summary><p>Não. Você recebe a lista de fornecedores com os itens básicos: pó base, goma, varetas de bambu, ervas e essências. Dá para começar com pouco e muita coisa você já tem na cozinha.</p></details>
+        <details><summary>Quanto tempo leva para ficar pronto?</summary><p>Em condições normais, o lote fica pronto para o teste de queima em cerca de 48 horas. Clima úmido pode pedir mais tempo, e o curso mostra como ajustar.</p></details>
+        <details><summary>Posso vender os incensos que eu fizer?</summary><p>Sim. Você recebe a tabela para calcular o preço e, no plano Completo, o gerador de etiquetas. O curso não garante renda; isso depende de quanto você produz e vende.</p></details>
+        <details><summary>Quanto custa para fazer e quanto dá para lucrar?</summary><p>Pelos nossos cálculos, um pacote de 9 varetas custa cerca de R$ 3,35 em material e embalagem. Vendido a R$ 18, sobram perto de R$ 14,65 por pacote. A calculadora mais acima mostra o seu cenário. O lucro real depende de quanto você produz e vende.</p></details>
+        <details><summary>Como recebo o acesso?</summary><p>Logo depois do pagamento, por e-mail. No Pix e no cartão é na hora. Dá para acessar no celular, no tablet ou no computador.</p></details>
+        <details><summary>E se eu não gostar?</summary><p>Você tem 30 dias para pedir o reembolso integral, sem precisar explicar o motivo.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final escuro">
+  <div class="wrap">
+    <div class="split">
+      <div class="f"><img class="foto" src="c10.webp" data-img="c10" loading="lazy" decoding="async" alt="Cone cascata aceso"></div>
+      <div class="stack" style="align-items:flex-start">
+        <span class="eyebrow">Última coisa</span>
+        <h2>Daqui a uma semana você pode estar acendendo o seu. Ou comprando mais um pacote.</h2>
+        <p class="sub2">A escolha custa R$ 14,90 e tem 30 dias de garantia.</p>
+        <a class="btn ck pulsa" data-plano="completo" href="#planos">Quero meu acesso agora<small>pagamento único · acesso vitalício</small></a>
+        <a href="#planos" style="color:var(--creme-2);font-size:15px">Ver os dois planos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="fixa" id="fixa" role="region" aria-label="Comprar"><div><b>Ateliê de Incensos</b><div style="font-size:13px;opacity:.8">a partir de R$ 14,90 · garantia 30 dias</div></div><a class="btn ck" data-plano="completo" href="#planos">Quero o meu</a></div>
+
+<div class="saida" id="saida" hidden role="dialog" aria-modal="true" aria-labelledby="saida-t">
+  <div class="card">
+    <div class="f"><img class="foto" src="07.webp" data-img="07" loading="lazy" decoding="async" alt=""></div>
+    <div class="topo"><span class="eyebrow">Espere, antes de ir</span><h2 id="saida-t">Leve o Completo e o Pack Espiritual juntos</h2></div>
+    <div class="corpo">
+      <ul>
+        <li>Tudo do plano Completo: apostila, fornecedores, tabela de preço, etiquetas e certificado</li>
+        <li>Pack Espiritual: incensos por chakra, signo e fase da lua</li>
+        <li>30 dias de garantia</li>
+      </ul>
+      <div><span class="de">R$ 44,80 separados</span><div class="por2">R$ 38,90</div></div>
+      <a class="btn ck" data-plano="backend" href="#planos">Quero os dois por R$ 38,90</a>
+      <button class="fechar" type="button" id="saida-fechar">Não, prefiro pagar mais depois</button>
+    </div>
+  </div>
+</div>
+
+<footer class="rodape">
+  <div class="wrap">
+    <!-- PENDENTE: razão social e CNPJ, quando confirmados. -->
+    <span>Ateliê de Incensos Naturais · Suporte: atelieincensosnaturais@gmail.com</span>
+    <span><a href="https://atelie-incensos-naturais.netlify.app/privacidade.html">Política de privacidade</a> · <a href="https://atelie-incensos-naturais.netlify.app/termos.html">Termos de uso</a> · Este produto não garante resultados financeiros. Imagens ilustrativas.</span>
+  </div>
+</footer>
+
+<script>
+/* ===== CONFIGURAÇÃO DE ESCALA ===== */
+// Links do checkout (Kiwify). UTMs, fbclid e src da URL da página são repassados automaticamente.
+const CHECKOUT = { essencial: "https://pay.kiwify.com.br/PlSGXg5", completo: "https://pay.kiwify.com.br/JJlMOOe", backend: "https://pay.kiwify.com.br/BocQKH7" };
+const VALOR = { essencial: 14.90, completo: 19.90, backend: 38.90 };
+// Cole o ID do seu Pixel da Meta. Vazio = sem pixel. Só dispara no seu domínio (Netlify/Vercel), não dentro do Claude.
+const PIXEL_ID = "";
+
+/* Pixel da Meta: PageView, ViewContent (rolou 50%) e InitiateCheckout (clique no botão) */
+const fbq = (() => {
+  if (!PIXEL_ID) return () => {};
+  try {
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    window.fbq('init', PIXEL_ID); window.fbq('track', 'PageView');
+    return (...a) => { try { window.fbq(...a); } catch (e) {} };
+  } catch (e) { return () => {}; }
+})();
+
+/* Repasse de UTMs para o checkout */
+const params = (() => {
+  const keep = ["utm_source","utm_medium","utm_campaign","utm_content","utm_term","fbclid","src","sck","xcod"];
+  const q = new URLSearchParams(location.search), out = new URLSearchParams();
+  keep.forEach(k => { const v = q.get(k); if (v) out.set(k, v); });
+  return out.toString();
+})();
+document.querySelectorAll("a.ck").forEach(a => {
+  const base = CHECKOUT[a.dataset.plano];
+  if (base) { a.href = params ? base + (base.includes("?") ? "&" : "?") + params : base; a.rel = "noopener"; }
+  a.addEventListener("click", () => {
+    if (base) fbq("track", "InitiateCheckout", { value: VALOR[a.dataset.plano], currency: "BRL", content_name: a.dataset.plano });
+  });
+});
+let vc = false;
+addEventListener("scroll", () => {
+  if (!vc && scrollY > (document.body.scrollHeight - innerHeight) * 0.5) { vc = true; fbq("track", "ViewContent", { content_name: "pagina-incensos" }); }
+}, { passive: true });
+
+/* Fotos */
+const IMGS = {"c10": "c10.webp", "06": "06.webp", "05": "05.webp", "c6": "c6.webp", "c2": "c2.webp", "c4": "c4.webp", "01": "01.webp", "09": "09.webp", "04": "04.webp", "c8": "c8.webp", "07": "07.webp", "03": "03.webp", "02": "02.webp", "c5": "c5.webp", "c7": "c7.webp", "c3": "c3.webp", "10": "10.webp", "08": "08.webp", "11": "11.webp", "c1": "c1.webp", "c9": "c9.webp"};
+const ordemRolo = ["c1","03","c3","07","c4","09","c8","01","c5","06","c9","04","c2","c10","08","c7"];
+const rolo = document.getElementById("rolo");
+[...ordemRolo, ...ordemRolo].forEach(k => { const d = document.createElement("div"); d.className = "f"; const i = document.createElement("img"); i.className = "foto"; i.dataset.img = k; i.alt = ""; d.appendChild(i); rolo.appendChild(d); });
+document.querySelectorAll("img[data-img]").forEach(i => {
+  const src = IMGS[i.dataset.img];
+  if (src) i.src = src; else i.removeAttribute("src");
+  if (!i.hasAttribute("fetchpriority")) i.loading = "lazy";
+  i.decoding = "async";
+});
+
+/* Cálculo de produção */
+(() => {
+  const brl = v => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+  // Por pacote de 9 varetas
+  const itens = [
+    ["Pó de madeira (base)", "18 g", 18 * 5.50 / 1000, false],
+    ["Goma (aglutinante)", "2 g", 2 * 60 / 1000, true],
+    ["Ervas e pós aromáticos", "5 g", 5 * 80 / 1000, true],
+    ["Essência concentrada", "3 ml", 3 * 25.90 / 120, false],
+    ["Varetas de bambu", "9 un.", 9 * 63.90 / 1000, false],
+    ["Embalagem kraft + etiqueta", "1 un.", 1.20, true],
+  ];
+  const sub = itens.reduce((s, i) => s + i[2], 0);
+  const perda = sub * 0.10, custo = sub + perda;
+  const tb = document.querySelector("#t-custo tbody");
+  [...itens, ["Perda no lote", "10%", perda, false]].forEach(([n, q, v, est]) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${n}${est ? '<span class="est">estimado</span>' : ""}</td><td>${q}</td><td>${brl(v)}</td>`;
+    tb.appendChild(tr);
+  });
+  document.getElementById("t-total").textContent = brl(custo);
+  document.getElementById("h-custo").textContent = brl(custo);
+
+  // Investimento inicial (~100 pacotes vendáveis)
+  const inv = [
+    ["Curso Completo", 19.90], ["1.000 varetas de bambu", 63.90], ["2 kg de pó de madeira", 11.00],
+    ["3 essências de 120 ml", 77.70], ["250 g de goma", 15.00], ["500 g de ervas secas", 40.00],
+    ["100 embalagens + etiquetas", 120.00],
+  ];
+  const invTotal = inv.reduce((s, i) => s + i[1], 0), pacotes = 100;
+  const ti = document.querySelector("#t-invest tbody");
+  inv.forEach(([n, v]) => { const tr = document.createElement("tr"); tr.innerHTML = `<td>${n}</td><td>${brl(v)}</td>`; ti.appendChild(tr); });
+  document.getElementById("t-itotal").textContent = brl(invTotal);
+  document.getElementById("i-total").textContent = brl(invTotal).replace(/,\d\d$/, "");
+  document.getElementById("i-pac").textContent = pacotes;
+
+  const rp = document.getElementById("r-preco"), rq = document.getElementById("r-qtd");
+  const set = (id, t) => { document.getElementById(id).textContent = t; };
+  function calc() {
+    const p = +rp.value, q = +rq.value, lp = p - custo;
+    set("o-preco", brl(p).replace(",00", "")); set("o-qtd", q);
+    set("o-lpac", brl(lp)); set("o-marg", Math.round(lp / p * 100) + "%");
+    set("o-lmes", brl(lp * q * 4.3).replace(/,\d\d$/, ""));
+    set("i-preco", brl(p).replace(",00", ""));
+    set("i-volta", Math.ceil(invTotal / p) + "º pacote");
+    set("i-receita", brl(p * pacotes).replace(",00", ""));
+    set("i-roi", Math.round((p * pacotes - invTotal) / invTotal * 100) + "%");
+  }
+  rp.addEventListener("input", calc); rq.addEventListener("input", calc); calc();
+})();
+
+/* Barra fixa aparece depois do topo */
+(() => {
+  const fx = document.getElementById("fixa"), hero = document.querySelector(".hero");
+  const ver = () => fx.classList.toggle("on", hero.getBoundingClientRect().bottom < 0);
+  addEventListener("scroll", ver, { passive: true }); ver();
+})();
+
+/* Oferta de saída: uma vez por visita */
+(() => {
+  const m = document.getElementById("saida"); if (!m) return;
+  let visto = false;
+  try { visto = sessionStorage.getItem("saida") === "1"; } catch (e) {}
+  const abrir = () => { if (visto) return; visto = true; try { sessionStorage.setItem("saida","1"); } catch (e) {} m.hidden = false; };
+  const fechar = () => { m.hidden = true; };
+  document.getElementById("saida-fechar").addEventListener("click", fechar);
+  m.addEventListener("click", e => { if (e.target === m) fechar(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") fechar(); });
+  document.addEventListener("mouseout", e => { if (!e.relatedTarget && e.clientY <= 0) abrir(); });
+  let ultimo = scrollY, t0 = Date.now();
+  addEventListener("scroll", () => {
+    const y = scrollY, subiu = ultimo - y; ultimo = y;
+    if (Date.now() - t0 > 20000 && subiu > 120 && y > 600) abrir();
+  }, { passive: true });
+  setTimeout(() => { if (scrollY > 900) abrir(); }, 60000);
+})();
+
+/* Cronômetro de queima */
+const t0 = Date.now(), tempo = document.getElementById("tempo");
+setInterval(() => {
+  const s = Math.floor((Date.now() - t0) / 1000);
+  tempo.textContent = String(Math.floor(s / 60)).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0");
+}, 1000);
+
+/* Vareta e fumaça */
+(() => {
+  const cv = document.getElementById("fumaca"), cx = cv.getContext("2d");
+  const reduz = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let W, H, dpr, parts = [];
+  function tam() {
+    dpr = Math.min(devicePixelRatio || 1, 2);
+    const r = cv.getBoundingClientRect(); W = r.width; H = r.height;
+    cv.width = W * dpr; cv.height = H * dpr; cx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  tam(); addEventListener("resize", tam);
+  const ponta = () => ({ x: W * 0.5, y: H * 0.42 });
+  function vareta(f) {
+    const p = ponta(), base = H * 0.88;
+    cx.lineCap = "round";
+    cx.strokeStyle = "#B88A55"; cx.lineWidth = 3; cx.beginPath(); cx.moveTo(p.x, base - 30); cx.lineTo(p.x, base); cx.stroke();
+    cx.strokeStyle = "#5A3B25"; cx.lineWidth = 8; cx.beginPath(); cx.moveTo(p.x, p.y + 6); cx.lineTo(p.x, base - 30); cx.stroke();
+    cx.fillStyle = "#3a2f26"; cx.beginPath(); cx.ellipse(p.x, base + 4, 38, 8, 0, 0, Math.PI * 2); cx.fill();
+    const g = cx.createRadialGradient(p.x, p.y, 0, p.x, p.y, 20), pulso = 0.75 + 0.25 * Math.sin(f / 9);
+    g.addColorStop(0, "rgba(255,170,90," + pulso + ")"); g.addColorStop(0.35, "rgba(217,104,43,.55)"); g.addColorStop(1, "rgba(217,104,43,0)");
+    cx.fillStyle = g; cx.beginPath(); cx.arc(p.x, p.y, 20, 0, Math.PI * 2); cx.fill();
+    cx.fillStyle = "#FFB46B"; cx.beginPath(); cx.arc(p.x, p.y + 2, 4, 0, Math.PI * 2); cx.fill();
+  }
+  let f = 0;
+  function quadro() {
+    f++; cx.clearRect(0, 0, W, H);
+    const p = ponta();
+    if (!reduz && f % 2 === 0) parts.push({ x: p.x, y: p.y - 4, vx: 0, vy: -0.55 - Math.random() * 0.4, r: 3 + Math.random() * 3, a: 0.22, fase: Math.random() * 6.28 });
+    for (const q of parts) {
+      q.fase += 0.025; q.vx += Math.sin(q.fase + q.y * 0.012) * 0.03;
+      q.x += q.vx; q.y += q.vy; q.r += 0.16; q.a *= 0.988;
+      const g = cx.createRadialGradient(q.x, q.y, 0, q.x, q.y, q.r);
+      g.addColorStop(0, "rgba(225,215,198," + q.a + ")"); g.addColorStop(1, "rgba(225,215,198,0)");
+      cx.fillStyle = g; cx.beginPath(); cx.arc(q.x, q.y, q.r, 0, Math.PI * 2); cx.fill();
+    }
+    parts = parts.filter(q => q.a > 0.01 && q.y > -40);
+    vareta(f);
+    if (!reduz) requestAnimationFrame(quadro);
+  }
+  if (reduz) for (let i = 0; i < 16; i++) parts.push({ x: W * 0.5 + Math.sin(i) * i * 2, y: H * 0.42 - i * 10, vx: 0, vy: 0, r: 5 + i * 2, a: 0.18, fase: 0 });
+  quadro();
+})();
+</script>
+
+</body>
+</html>
